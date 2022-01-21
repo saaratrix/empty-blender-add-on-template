@@ -1,5 +1,7 @@
 # Blender 3.0 add-on template
-An empty boilerplate template for Blender 3.0.
+An empty boilerplate template for creating a Blender Add-on project.
+
+A dedicated folder for the add-on source files in case you need more files than just the add-on code. 
 
 ## Set-up
 Your Blender add-on code goes into the `example-addon` folder. 
@@ -11,7 +13,7 @@ From fake-bpy-module for PyCharm users:
 > Note: For PyCharm users, change the value idea.max.intellisense.filesize in idea.properties file to more than 2600 because some modules have the issue of being too big for intelliSense to work.
 
 ### Linking add-on folder to Blender
-We want to symlink the `example-addon` folder to Blender's `scripts/addons` folder to automatically copy all the files there.
+We want to symlink the `example-addon` folder to Blender's `scripts/addons` folder to automatically copy all the files to Blender.
 
 On Windows 10 the syntax is:
 `mklink /D "Target" "Source"`
