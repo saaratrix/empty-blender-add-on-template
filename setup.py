@@ -1,6 +1,6 @@
 from setuptools import setup  # type: ignore
 
-VERSION = '3.2.0'
+VERSION = '0.0.1'
 REQUIREMENTS = [
     'fake-bpy-module-3.2==20220615',
 ]
