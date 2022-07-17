@@ -2,10 +2,10 @@
 An empty boilerplate template for creating a Blender Add-on project.
 
 A dedicated folder for the add-on source files in case you need more files than just the add-on code.
-Like for tests.
-In this template the folder is called example-addon but, you should rename that to your add-on's name.
+For example for unit tests.
 
 ## Set-up
+Rename the folder `example-addon` and update `setup.py`'s name and description.
 Your Blender add-on code goes into the `example-addon` folder. 
 
 Run `pip install -e .` which installs the [fake-bpy-module](https://github.com/nutti/fake-bpy-module) package. \
