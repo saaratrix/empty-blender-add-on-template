@@ -2,7 +2,7 @@ from setuptools import setup  # type: ignore
 
 VERSION = '0.0.1'
 REQUIREMENTS = [
-    'fake-bpy-module-3.2==20220615',
+    'fake-bpy-module-3.3==20221006',
 ]
 
 # For example unit test libraries.

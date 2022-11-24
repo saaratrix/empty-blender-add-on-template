@@ -15,7 +15,7 @@ bl_info = {
     "name": "Example Add-on",
     "author": "Your name.",
     "version": (0, 0, 1),
-    "blender": (3, 2, 0),
+    "blender": (3, 3, 1),
     "category": "Generic",
     "location": "View3D",
 }
