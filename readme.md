@@ -1,4 +1,4 @@
-# Blender 3.3.1 add-on template
+# Blender 3.4.1 add-on template
 An empty boilerplate template for creating a Blender Add-on project.
 
 A dedicated folder for the add-on source files in case you need more files than just the add-on code.
@@ -9,7 +9,7 @@ Rename the folder `example-addon` and update `setup.py`'s name and description.
 Your Blender add-on code goes into the `example-addon` folder. 
 
 Run `pip install -e .` which installs the [fake-bpy-module](https://github.com/nutti/fake-bpy-module) package. \
-Alternatively `pip install fake-bpy-module-3.3`.
+Alternatively `pip install fake-bpy-module-3.4`.
 
 From fake-bpy-module for PyCharm users:
 > Note: For PyCharm users, change the value idea.max.intellisense.filesize in idea.properties file to more than 2600 because some modules have the issue of being too big for intelliSense to work.
@@ -23,7 +23,7 @@ On Windows 10 the syntax is:
 `mklink /D "Target" "Source"`
 
 Example:
-`mklink /D "C:\Program Files\Blender Foundation\Blender\3.3\scripts\addons\example-addon" "C:\Users\User\empty-blender-add-on-template\example-addon"`
+`mklink /D "C:\Program Files\Blender Foundation\Blender\3.4\scripts\addons\example-addon" "C:\Users\User\empty-blender-add-on-template\example-addon"`
 
 ## Activating add-on in blender
 Your add-on should now be inside the addons folder inside Blender you navigate to the add-ons preference.
